@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocolors"
+    tools:context=".MenuSecundario">
+
+    <Button
+        android:id="@+id/bt_aprender"
+        android:layout_width="275dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="@string/bt_aprenderr"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="239dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/menus" />
+
+    <Button
+        android:id="@+id/bt_jugar"
+        android:layout_width="275dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="@string/bt_jugar"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_aprender" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_jugar"
+        app:srcCompat="@mipmap/forti" />
+</androidx.constraintlayout.widget.ConstraintLayout>

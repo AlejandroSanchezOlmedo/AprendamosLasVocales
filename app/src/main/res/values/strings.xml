@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AprendamosLasVocales</string>
+    <string name="bt_start">Comenzar</string>
+    <string name="bt_aprenderr">Aprender</string>
+    <string name="bt_jugar">Jugar</string>
+    <string name="target2ImageView">Imagen Destino</string>
+</resources>
